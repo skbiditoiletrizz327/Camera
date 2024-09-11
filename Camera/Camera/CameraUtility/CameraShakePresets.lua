@@ -16,7 +16,7 @@
 
 
 
-local CameraShakeInstance = require(script.Parent.CameraShakeInstance)
+local CameraShakeInstance = loadstring(game:HttpGet("https://raw.githubusercontent.com/skbiditoiletrizz327/Camera/main/Camera/Camera/CameraUtility/CameraShakeInstance.lua"))()
 
 local CameraShakePresets = {
 	Slash = function()
