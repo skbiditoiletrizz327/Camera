@@ -2,7 +2,7 @@
 local Camera = workspace.CurrentCamera
 
 -- Modules
-local CameraShaker = require(script.CameraShake)
+local CameraShaker = loadstring(game:HttpGet("https://raw.githubusercontent.com/skbiditoiletrizz327/Camera/main/Camera/Camera/CameraShake.lua"))()
 
 local CamShake = CameraShaker.new(Enum.RenderPriority.Camera.Value, function(CF)
 	Camera.CFrame = Camera.CFrame * CF
